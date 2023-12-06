@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.10"
+
+[packages]
+neptune = "*"
+pytorch_lightning = "*"
+matplotlib = "*"
+jupyter = "*"
+notebook = "*"
+torch = "*"
+numpy = "*"
+plotly = "*"
+joblib = "*"
+tqdm = "*"
+optuna = "*"
+dask-cuda = "*"
